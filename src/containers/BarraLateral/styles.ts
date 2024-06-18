@@ -11,8 +11,8 @@ export const Filtros = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin-top: 16px;
-  padding: 16px;
   width: 100%;
+  margin-left: 10px;
 `
 
 export const Campo = styled.input`
@@ -21,5 +21,5 @@ export const Campo = styled.input`
   background: #fff;
   font-weight: bold;
   width: 100%;
-  margin: 16px 0 0 2px;
+  margin: 16px 0 0 10px;
 `
