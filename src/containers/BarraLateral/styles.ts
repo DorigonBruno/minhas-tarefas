@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Aside = styled.aside`
-  padding: 16px;
   background: #eee;
   height: 100vh;
+  padding: 0 20px 0 0;
 `
 
 export const Filtros = styled.div`
@@ -13,13 +13,4 @@ export const Filtros = styled.div`
   margin-top: 16px;
   width: 100%;
   margin-left: 10px;
-`
-
-export const Campo = styled.input`
-  border-radius: 8px;
-  padding: 8px;
-  background: #fff;
-  font-weight: bold;
-  width: 100%;
-  margin: 16px 0 0 10px;
 `
